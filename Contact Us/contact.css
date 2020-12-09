@@ -1,0 +1,400 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    display: flex;
+}
+
+.container2 {
+    width: 100%;
+    height: fit-content;
+    background-color: #f0f2fa;
+}
+
+.header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./src/img/slider-2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    display: flex;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}
+
+.navbar {
+    width: 100%;
+    background-color: grey;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999999999999;
+}
+
+.navbar-items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    z-index: 99999999999999;
+}
+
+.navbar-items a {
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'Castoro';
+    color: white;
+    z-index: 99999999999;
+}
+
+.header-sub {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+    position: absolute;
+    left: 20px;
+    top: 80px;
+    color: white;
+    z-index: 99999;
+}
+
+.header-cover {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header-heading {
+    font-size: 70px;
+    font-weight: 550;
+    color: white;
+    font-family:'Frank Ruhl Libre';
+    text-align: center;
+    margin: auto;
+    z-index: 99999;
+}
+
+.main-contact {
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    padding: 100px 70px;
+}
+
+.contact {
+    border: 2px solid rgb(199, 195, 195);
+    width: 40%;
+    padding: 50px;
+}
+
+.contact-box {
+    display: flex;
+}
+
+.name {
+    flex-grow: 1;
+    font-size: 15px;
+    font-weight: 500;
+    color:  #747070;
+}
+
+.phone {
+    flex-grow: 1;
+    font-size: 15px;
+    font-weight: 500;
+    color:  #747070;
+}
+
+.email {
+    font-size: 15px;
+    font-weight: 500;
+    color:  #747070;
+    margin-top: 30px;
+}
+
+.message {
+    font-size: 15px;
+    font-weight: 500;
+    color:  #747070;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.contact-btn {
+    background-color: #fa6712;
+    color: black;
+    /* font-family: 'Lato'; */
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50px;
+    border: 0;
+    cursor: pointer;
+    transition: 0.5;
+    padding: 14px 40px;
+    margin-top: 30px;
+}
+
+.contact-btn:hover{
+    background-color: #f87326;
+}
+
+.contact-btn:focus {
+    outline: 0;
+}
+
+.loc-info {
+    font-size: 12px;
+    font-weight: 500;
+    color: #747070;
+}
+
+.loc-contact {
+    font-family:'Open Sans Condensed';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.contact-location {
+    margin-left: 150px;
+}
+
+
+.testimonial {
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 120px;
+    background-color: #f0f2fa;
+    z-index: 11;
+}
+
+.testimonial-carousel {
+    justify-content: center;
+}
+
+.circle-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+}
+
+.text-circle {
+    font-size: 17px;
+    font-weight: 250;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    z-index: 11;
+}
+
+.person-name {
+    font-size: 15px;
+    font-weight: 250;
+    font-family: 'Inconsolata';
+    text-align: center;
+}
+
+.carousel-sub {
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 35px;
+}
+
+.subtitle-carousel {
+    font-size: 50px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    font-family: 'PT Serif';
+}
+
+.text-carousel {
+    font-size: 20px;
+    font-family: 'Quicksand';
+    color: #555353;
+    z-index: 11;
+}
+
+.sub-testimonial {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 150px;
+    color: black;
+    text-align: center;
+    font-family: 'PT Serif';
+}
+
+.fast {
+    color: #f36818;
+}
+
+
+.last-heading {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 100px 70px 50px;
+}
+
+.last-heading-text {
+    font-size: 25px;
+    font-weight: 400;
+    color: black;
+    font-family: 'Frank Ruhl Libre' ;
+    line-height: 30px;
+}
+
+.button-heading {
+    background-color: #f86b19;
+    color: white;
+    font-family: 'Lato';
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 50px;
+    border: 0;
+    cursor: pointer;
+    padding: 15px 50px;
+    transition: 0.5;
+    height: fit-content;
+}
+
+.button-heading:hover{
+    background-color: #cc4b00;
+}
+
+.button-heading:focus {
+    outline: 0;
+}
+
+
+.futter {
+    width: 100%;
+    background-color: black;
+    padding: 90px 60px;}
+
+.fas {
+    color: #f86b19;
+}
+
+.custom-heading {
+    /* margin-top: 150px;
+    margin-left: 100px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.futter-text {
+    font-size: 17px;
+    font-weight: 450;
+    color: #747070;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+
+.futter-text2 {
+    font-size: 17px;
+    font-weight: 450;
+    color: #747070;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.futter-text3 {
+    line-height: 30px;
+}
+
+.contact-items {
+    font: 17px;
+    font-weight: 400;
+    color: white;
+}
+
+.futter-info {
+    font-size: 15px;
+    font-weight: 400;
+    color: #555353;
+}
+
+.input-custom {
+    width: 250px;
+    height: 35px;
+    background-color: black;
+    border: none;
+    transition: 0.5s;
+    outline: 0;
+    display: block;
+    color: rgb(165, 162, 162);
+    font-size: 18px;
+    display: block;
+    font-family: 'Open Sans Condensed';
+}
+
+.sign-up {
+    height: fit-content;
+    font-size: 17px;
+    font-weight: 450;
+    color: #747070;
+    border-bottom: 1px solid gray;
+}
+
+.input-custom:hover {
+    border-bottom-color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+
+.fab.fa-telegram-plane {
+    font-weight: 500;
+    color: white;
+}
+
+hr.line {
+    color: #747070;
+    font-weight: bolder;
+    border: 1px solid #747070;
+}
+
+.color-red {
+    color: red;
+}
+
+.last-text {
+    color: rgb(165, 162, 162);
+}
+
+.icons {
+    display: flex;
+    padding: 50px 70px 20px 70px;
+    justify-content: space-between;
+}
+
+.fab {
+    color: white;
+    cursor: pointer;
+}
+
+.fab:hover {
+    color: rgb(77, 73, 73);
+}
+
